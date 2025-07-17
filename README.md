@@ -9,14 +9,11 @@
 <p align="center">
  <a href="#sobre">Sobre</a> • 
  <a href="#inicio">Como rodar</a> • 
- <a href="#rotas">Rotas</a> •
- <a href="#colaboradores">Colaboradores</a> •
- <a href="#contribua">Contribua</a>
+ <a href="#tecnologias">Tecnologias Utilizadas</a> •
+ <a href="#funcionalidades">Funcionalidades</a> •
+  <a href="#infos">Informações Úteis</a>
 </p>
 
-<p align="center">
-    <img src="../.github/example.png" alt="Exemplo do Projeto" width="400px">
-</p>
 
 <h2 id="sobre">📌 Sobre</h2>
 
@@ -54,13 +51,11 @@ Acesse em: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-<!-- Removendo a seção de rotas e adicionando observação sobre SPA -->
-
 > ℹ️ Este projeto é uma SPA (Single Page Application), portanto, não possui rotas definidas no momento.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+<h3 id="tecnologias">🛠️ Tecnologias Utilizadas </h3> 
 
 - React
 - JavaScript (ES6+)
@@ -68,7 +63,7 @@ Acesse em: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## ✨ Funcionalidades
+<h3 id="funcionalidades"> ✨ Funcionalidades </h3>
 
 - Cadastro de colaboradores com nome, cargo, imagem e time.
 - Visualização dos colaboradores organizados por times.
@@ -77,7 +72,7 @@ Acesse em: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## ℹ️ Informações Úteis
+<h3 id="infos"> ℹ️ Informações Úteis </h3>
 
 - As imagens de perfis e banners estão na pasta `public/imagens` e `public/perfis`.
 - O projeto pode ser facilmente expandido para incluir novas funcionalidades, como integração com backend ou autenticação.
