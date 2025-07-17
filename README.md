@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center" style="font-weight: bold;">MOSAICO 💻</h1>
 
-## Available Scripts
+![react][REACT__BADGE]
+![javascript][JAVASCRIPT__BADGE]
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#sobre">Sobre</a> • 
+ <a href="#inicio">Como rodar</a> • 
+ <a href="#rotas">Rotas</a> •
+ <a href="#colaboradores">Colaboradores</a> •
+ <a href="#contribua">Contribua</a>
+</p>
 
-### `npm start`
+<p align="center">
+    <img src="../.github/example.png" alt="Exemplo do Projeto" width="400px">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 id="sobre">📌 Sobre</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O Mosaico é uma aplicação web desenvolvida em React para organizar e exibir equipes e colaboradores de forma visual e interativa. O projeto permite cadastrar colaboradores, separá-los por times e visualizar informações de cada membro.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 id="inicio">🚀 Como rodar o projeto</h2>
 
-### `npm run build`
+<h3>Pré-requisitos</h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [NodeJS](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3>Clonando o repositório</h3>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/SEU_USUARIO/mosaico.git
+```
 
-### `npm run eject`
+<h3>Instalando dependências</h3>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd mosaico
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h3>Iniciando a aplicação</h3>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Acesse em: [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Removendo a seção de rotas e adicionando observação sobre SPA -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> ℹ️ Este projeto é uma SPA (Single Page Application), portanto, não possui rotas definidas no momento.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Tecnologias Utilizadas
 
-### Analyzing the Bundle Size
+- React
+- JavaScript (ES6+)
+- CSS3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ✨ Funcionalidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Cadastro de colaboradores com nome, cargo, imagem e time.
+- Visualização dos colaboradores organizados por times.
+- Customização de cores dos times.
+- Layout responsivo e moderno.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ℹ️ Informações Úteis
 
-### Deployment
+- As imagens de perfis e banners estão na pasta `public/imagens` e `public/perfis`.
+- O projeto pode ser facilmente expandido para incluir novas funcionalidades, como integração com backend ou autenticação.
+- Para modificar os times disponíveis, edite o componente de formulário em `src/componentes/Formulario`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
