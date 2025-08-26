@@ -17,7 +17,7 @@
 
 <h2 id="sobre">📌 Sobre</h2>
 
-O Mosaico é uma aplicação web desenvolvida em React para organizar e exibir equipes e colaboradores de forma visual e interativa. O projeto permite cadastrar colaboradores, separá-los por times e visualizar informações de cada membro.
+O Mosaico é uma aplicação web front-end desenvolvida em React para organizar e exibir equipes e colaboradores de forma visual e interativa. O projeto permite cadastrar colaboradores, separá-los por times e visualizar informações de cada membro.
 
 ---
 
@@ -48,10 +48,6 @@ npm start
 ```
 
 Acesse em: [http://localhost:3000](http://localhost:3000)
-
----
-
-> ℹ️ Este projeto é uma SPA (Single Page Application), portanto, não possui rotas definidas no momento.
 
 ---
 
